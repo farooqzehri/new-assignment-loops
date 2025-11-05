@@ -14,8 +14,10 @@
 // a paragraph with the ID output using document.querySelector.
 
 
-let colors = ["red" , "green" , "blue" , "yellow"];
-const paragraph =document.querySelector("#input");
-for(let i = 0; i < colors.length; i++){
-    paragraph.innerHTML += colors[i] + ". ";
-} 
+// let colors = ["red" , "green" , "blue" , "yellow"];
+// const paragraph =document.querySelector("#input");
+// for(let i = 0; i < colors.length; i++){
+//     paragraph.innerHTML += colors[i] + ". ";
+// } 
+
+// q no 2     ok
