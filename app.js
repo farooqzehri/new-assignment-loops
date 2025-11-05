@@ -43,3 +43,18 @@
 
 // }
 // q no 4 ok
+
+// 5. Given an array of names ["Ali", "Sara", "Ahmed"], use a loop to change the text of a div 
+// with ID names to show all names separated by commas. 
+// const output = document.querySelector("#output")
+// const names = ["ali" , "sara" , "majeed" ,"Sharokh"];
+// for(let i = 0; i < names.length; i++){
+//     output.innerHTML += names[i] +", "
+
+
+// }
+
+//    q no 5 ok
+
+
+
