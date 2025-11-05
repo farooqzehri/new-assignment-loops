@@ -86,3 +86,16 @@
 
 // 8. Loop through an array of cities ["Karachi", "Lahore", "Quetta"] and display them as a 
 // single string in a div with ID cities.
+
+let city = ["quetta" , "karachi" , "Khuzdar" ,"dubai"];
+let cstr = "";
+for(let i = 0 ; i < city.length; i++){
+  cstr += city[i]
+  if (i < city.length - 1 ){
+    cstr += ", ";
+  }
+}
+let cities = document.querySelector("#result")
+cities.innerHTML = cstr
+
+// q no 8 ok
