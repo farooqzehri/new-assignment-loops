@@ -35,4 +35,11 @@
 // q no 3   ok 
 
 
+// 4. Use a while loop to print numbers from 5 to 1 in the console. 
+// let i = 5
+// while(i >= 1 ){
+// console.log(i);
+// i--
 
+// }
+// q no 4 ok
