@@ -57,4 +57,11 @@
 //    q no 5 ok
 
 
+// 6. Change the text of a paragraph with ID status to "Loading..." using 
+// document.querySelector. 
+// const statuss =document.querySelector("#load");
+// statuss.innerHTML = "Loading...."
+
+
+// q no 6 ok
 
