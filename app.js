@@ -65,3 +65,24 @@
 
 // q no 6 ok
 
+
+
+// 7. Use a loop to calculate the sum of numbers in an array [5, 10, 15] and display the total in 
+// a paragraph with ID sum. 
+
+
+// let numbers = [12, 21, 32];
+// let total = 0;
+// for(let i = 0 ; i < numbers.length ; i++){
+//     total += numbers[i]
+// }
+ 
+// const summary =document.querySelector("#sum");
+// summary.innerHTML = "total is : " + total
+
+
+// q no 7 ok
+
+
+// 8. Loop through an array of cities ["Karachi", "Lahore", "Quetta"] and display them as a 
+// single string in a div with ID cities.
