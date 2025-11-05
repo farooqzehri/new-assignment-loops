@@ -21,3 +21,18 @@
 // } 
 
 // q no 2     ok
+
+
+
+// 3. Use a for loop to print numbers from 1 to 10 in the browser console.
+ 
+
+// for(let i = 0 ; i <= 10 ; i++){
+//     console.log(i);
+    
+// }
+
+// q no 3   ok 
+
+
+
