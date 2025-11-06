@@ -144,16 +144,29 @@
 //12. Given an array of temperatures [30, 35, 32, 40], use a loop to calculate the average and 
 //display it inside an element with ID averageTemp. 
 
-let temperatures = [30, 35, 32, 40];
-let sum = 0
-for(let i = 0; i < temperatures.length; i++){
-    sum += temperatures[i] 
+// let temperatures = [30, 35, 32, 40];
+// let sum = 0
+// for(let i = 0; i < temperatures.length; i++){
+//     sum += temperatures[i] 
 
-}
-let average = sum / temperatures.length;
+// }
+// let average = sum / temperatures.length;
 
-const TemprAvarage =document.querySelector("#averageTemp")
-TemprAvarage.innerHTML = "Average Temprature is : " + average
+// const TemprAvarage =document.querySelector("#averageTemp")
+// TemprAvarage.innerHTML = "Average Temprature is : " + average
 
 // Question no 12 OK
+
+
+// 13. Create a loop that adds all the numbers from 1 to 100 and shows the total inside a 
+// paragraph with ID totalSum.
+let sum = 0
+for(let i = 0; i <= 100; i++){
+sum += i
+
+}
+const summary =document.querySelector("#totalsum")
+summary.innerHTML = sum
+
+//   Question no 13 Complete OK
 
