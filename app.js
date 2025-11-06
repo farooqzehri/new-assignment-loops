@@ -103,8 +103,27 @@
 // rite a loop that counts from 1 to 20 and logs only the even numbers in the console.
 
 
-for(let i = 0 ; i <= 20; i++){
-    if(i % 2 === 0)
-        console.log(i);
+// for(let i = 0 ; i <= 20; i++){
+//     if(i % 2 === 0)
+//         console.log(i);
         
+// }
+
+// q no 9 ok
+
+
+// 10. Create an array of numbers [45, 22, 89, 100], and use a loop to find and display the 
+// largest number in a paragraph with ID max.
+
+const numbers = [45, 22, 89, 100]
+let maxn = [0];
+for(let i = 0; i <= numbers.length; i++){
+    if(numbers[i] > maxn){
+        maxn = numbers[i];
+    }
+
 }
+let max = document.querySelector("#max");
+max.innerHTML = "largest number is = " + maxn
+
+// q  no 10 ok
