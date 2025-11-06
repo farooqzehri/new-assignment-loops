@@ -188,7 +188,19 @@
 // 15. Use document.querySelector to select a heading with ID title and change its text to 
 // "Welcome to JavaScript!". 
 
-const heading =document.querySelector("#title");
-heading.innerHTML = "Welcome to JavaScript!"
+// const heading =document.querySelector("#title");
+// heading.innerHTML = "Welcome to JavaScript!"
 
 // Question no 15 complete
+
+
+// 16. Create a loop that prints all numbers between 1 and 50 that are divisible by 5, and log 
+// them to the console. 
+
+// for(let i = 0; i <= 50; i++){
+//     if(i % 5 === 0)
+//     console.log(i);
+    
+// }
+
+//  Question no 16 complete
