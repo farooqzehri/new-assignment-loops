@@ -219,5 +219,13 @@
 // const displaydiv = document.querySelector("#score")
 // displaydiv.innerHTML = "scores above 75: " + count
 
-//  Question no 18 complete
+//  Question no 17 complete
 
+
+// 18. Select an element with ID message and change its text to "Updated successfully" using 
+// document.querySelector. 
+
+const text =document.querySelector("#message")
+text.innerHTML = "Update Successfully"
+
+//   Question no 18 complete
