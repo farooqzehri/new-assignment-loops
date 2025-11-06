@@ -160,13 +160,28 @@
 
 // 13. Create a loop that adds all the numbers from 1 to 100 and shows the total inside a 
 // paragraph with ID totalSum.
-let sum = 0
-for(let i = 0; i <= 100; i++){
-sum += i
+// let sum = 0
+// for(let i = 0; i <= 100; i++){
+// sum += i
 
-}
-const summary =document.querySelector("#totalsum")
-summary.innerHTML = sum
+// }
+// const summary =document.querySelector("#totalsum")
+// summary.innerHTML = sum
 
 //   Question no 13 Complete OK
+
+
+//14. Use a loop to print all values of the array ["dog", "cat", "bird"] into a single paragraph with 
+// ID animals. 
+
+let values = ["dog", "cat", "bird"];
+let print = " " ;
+for(let i = 0; i < values.length; i++){
+    print += values[i]
+}
+const result =document.querySelector("#animals");
+result.innerHTML = print
+
+// Question no 14 Complete Ok
+
 
