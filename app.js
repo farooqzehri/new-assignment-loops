@@ -115,15 +115,27 @@
 // 10. Create an array of numbers [45, 22, 89, 100], and use a loop to find and display the 
 // largest number in a paragraph with ID max.
 
-const numbers = [45, 22, 89, 100]
-let maxn = [0];
-for(let i = 0; i <= numbers.length; i++){
-    if(numbers[i] > maxn){
-        maxn = numbers[i];
-    }
+// const numbers = [45, 22, 89, 100]
+// let maxn = [0];
+// for(let i = 0; i <= numbers.length; i++){
+//     if(numbers[i] > maxn){
+//         maxn = numbers[i];
+//     }
 
-}
-let max = document.querySelector("#max");
-max.innerHTML = "largest number is = " + maxn
+// }
+// let max = document.querySelector("#max");
+// max.innerHTML = "largest number is = " + maxn
 
 // q  no 10 ok
+
+
+
+
+// 11. Use document.querySelector to select a div with ID result and change its text to "Task 
+// Complete". 
+
+// const result =document.querySelector("#results")
+// result.innerHTML = "Task Complete."
+
+// q no 11 complete ok
+
