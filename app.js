@@ -206,18 +206,18 @@
 //  Question no 16 complete
 
 // 17. Given an array of scores [80, 60, 90, 70], calculate how many scores are above 75 and 
-// display the count in a div with ID highScores. 
-let scores = [80, 60, 90, 70, 98 ,78];
-let count = 0;
-for(let i = 0; i < scores.length; i++){
-    if( scores[i] > 75 ){
-        count++
-    }
+// // display the count in a div with ID highScores. 
+// let scores = [80, 60, 90, 70, 98 ,78];
+// let count = 0;
+// for(let i = 0; i < scores.length; i++){
+//     if( scores[i] > 75 ){
+//         count++
+//     }
    
 
-}
-const displaydiv = document.querySelector("#score")
-displaydiv.innerHTML = "scores above 75: " + count
+// }
+// const displaydiv = document.querySelector("#score")
+// displaydiv.innerHTML = "scores above 75: " + count
 
 //  Question no 18 complete
 
