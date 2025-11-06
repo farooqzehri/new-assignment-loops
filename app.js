@@ -139,3 +139,21 @@
 
 // q no 11 complete ok
 
+
+
+//12. Given an array of temperatures [30, 35, 32, 40], use a loop to calculate the average and 
+//display it inside an element with ID averageTemp. 
+
+let temperatures = [30, 35, 32, 40];
+let sum = 0
+for(let i = 0; i < temperatures.length; i++){
+    sum += temperatures[i] 
+
+}
+let average = sum / temperatures.length;
+
+const TemprAvarage =document.querySelector("#averageTemp")
+TemprAvarage.innerHTML = "Average Temprature is : " + average
+
+// Question no 12 OK
+
