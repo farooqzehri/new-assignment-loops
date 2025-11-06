@@ -174,14 +174,21 @@
 //14. Use a loop to print all values of the array ["dog", "cat", "bird"] into a single paragraph with 
 // ID animals. 
 
-let values = ["dog", "cat", "bird"];
-let print = " " ;
-for(let i = 0; i < values.length; i++){
-    print += values[i]
-}
-const result =document.querySelector("#animals");
-result.innerHTML = print
+// let values = ["dog", "cat", "bird"];
+// let print = " " ;
+// for(let i = 0; i < values.length; i++){
+//     print += values[i]
+// }
+// const result =document.querySelector("#animals");
+// result.innerHTML = print
 
 // Question no 14 Complete Ok
 
 
+// 15. Use document.querySelector to select a heading with ID title and change its text to 
+// "Welcome to JavaScript!". 
+
+const heading =document.querySelector("#title");
+heading.innerHTML = "Welcome to JavaScript!"
+
+// Question no 15 complete
